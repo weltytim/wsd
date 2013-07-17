@@ -1,0 +1,252 @@
+@charset "UTF-8";
+													/*                   HEADER                */
+												
+
+body{
+	width:960px;
+	margin:0 auto;
+	background-color:#b8845b;
+	background-image:url(../images/minecraft_bg.jpg), url(../images/minecraft_bg_bottom.jpg);
+	background-repeat:repeat-x, repeat-y;
+}
+
+header{
+	width:960px;
+	margin-left:5px;
+	padding-bottom:15px;
+}
+
+h1{
+	font-family: 'Fugaz One', cursive;
+	font-size:60px;
+	text-shadow:2px 2px #fff;
+}
+
+													/*                 Navigation               */
+nav{
+	position:relative;
+	bottom:30px;
+	right:30px;
+	margin:0;
+	padding:0;	
+}
+
+nav ul{
+	width:510px;
+	margin:0 28px;
+	list-style-type:none;
+	padding:0;
+	overflow:hidden;
+}
+
+nav li{
+	font-family: 'Racing Sans One', cursive;
+	letter-spacing:2px;
+	width:100px;
+	float:left;
+}
+
+nav a{
+	text-decoration:none;
+	display:block;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#fff
+}
+
+nav a:link{
+	color:#fff;	
+}
+
+nav a:visited{
+	color:#fff;
+}
+
+nav a:hover{
+	width:100px;
+	height:30px;
+	background:#fff;
+	color:#92c4ff;	
+}
+
+nav a:active{
+	color:#94c7ff;
+}
+
+
+
+													/*                  Content               */
+	
+#content{
+	background:#fff;
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+}
+
+#content img{
+	padding:10px;
+}
+
+#content h2{
+	text-align:left;
+	margin:20px 20px;
+	color:#000;
+	font-family: 'Racing Sans One', cursive;
+	font-size:30px;
+}
+
+section{
+	width:1000px;
+}
+
+.info{
+	text-align:start;
+	padding:20.1px;
+	font-family: 'Numans', sans-serif;
+	font-size:15px;
+	float:left;
+	width:293px;
+	height:150px;
+	background:#92c4ff;
+}
+
+aside{
+	background: #7db9e8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #7db9e8 0%, #ffffff 48%, #7db9e8 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(48%,#ffffff), color-stop(99%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #7db9e8 0%,#ffffff 48%,#7db9e8 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #7db9e8 0%,#ffffff 48%,#7db9e8 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #7db9e8 0%,#ffffff 48%,#7db9e8 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #7db9e8 0%,#ffffff 48%,#7db9e8 99%); /* W3C */
+	float:right;
+	display: block;
+  	width: 115px;
+  	height: 25px;
+  	padding: 10px;
+  	border-radius: 5px;
+  	color:#000;
+  	font-weight: bold;
+	margin-right:40px;
+}
+
+aside a{
+	color:#4d6479;
+}
+
+aside a:link{
+	text-decoration:none;
+	color:#4d6479;
+}
+
+aside a:visited{
+	color:#4d6479;
+}
+
+#clear{
+	clear:both;
+}
+
+
+													/*                  Gallery              */
+h3{
+	text-align:left;
+	margin:20px 20px;
+	color:#000;
+	font-family: 'Fugaz One', cursive;
+	font-size:20px;
+}
+
+#gallery{
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+	margin-left:100px;
+	width:850px;
+}
+
+#gallery img{
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+}
+
+#gallery li{
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+	margin:0 auto;
+	list-style-type: none;
+	float:left;
+}
+
+#gallery img:hover{
+	 -webkit-box-shadow: 0px 0px 10px 0px #4d4d4d;
+    -moz-box-shadow: 0px 0px 10px 0px #4d4d4d;
+    box-shadow: 0px 0px 10px 0px #4d4d4d;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;  
+    border-radius: 8px;
+}
+
+#link ul{
+	padding:0;
+	margin:0;
+}
+
+#link li{
+	margin:0 30px;
+	padding-bottom:10px;
+	text-align:left;
+	list-style-type:hiragana;
+	width:240px;
+}
+
+#link a{
+	text-decoration:none;
+	color:#92c4ff
+}
+
+#link a:link{
+	color:#92c4ff;	
+}
+
+#link a:visited{
+	color:#92c4ff;
+}
+
+#link a:hover{
+	width:100px;
+	height:30px;
+	background:#92c4ff;
+	color:#fff;	
+}
+
+#link a:active{
+	color:#94c7ff;
+}											
+													
+													
+													/*                  Footer               */
+
+footer{
+	opacity:0.9;
+	padding:10px 0;
+	background:#92c4ff;
+	width:1000px;
+	text-align:center;
+	position:relative;
+	bottom:16px;
+}
+
+footer nav{
+	margin-left:80px;
+	margin-top:20px;
+}
+													
